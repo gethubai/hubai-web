@@ -50,6 +50,12 @@ const config = {
           trackingID: 'G-DWXL1GECSY',
           anonymizeIP: false,
         },
+        sitemap: {
+          changefreq: 'daily', // TODO: Change to weekly after we finish docs
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+        },
       }),
     ],
   ],
