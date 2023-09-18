@@ -1,5 +1,3 @@
-[@hubai/brain-sdk](../README.md) / [Exports](../modules.md) / ITextBrainService
-
 # Interface: ITextBrainService<TSettings\>
 
 ## Type parameters

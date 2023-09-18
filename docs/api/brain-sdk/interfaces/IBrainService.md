@@ -1,5 +1,3 @@
-[@hubai/brain-sdk](../README.md) / [Exports](../modules.md) / IBrainService
-
 # Interface: IBrainService
 
 ## Hierarchy

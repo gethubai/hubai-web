@@ -1,5 +1,3 @@
-[@hubai/brain-sdk](../README.md) / [Exports](../modules.md) / TextBrainPrompt
-
 # Interface: TextBrainPrompt
 
 ## Table of contents

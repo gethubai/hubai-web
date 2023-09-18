@@ -1,5 +1,3 @@
-[@hubai/brain-sdk](../README.md) / [Exports](../modules.md) / IBrainPromptContext
-
 # Interface: IBrainPromptContext<TPromptSettings\>
 
 ## Type parameters

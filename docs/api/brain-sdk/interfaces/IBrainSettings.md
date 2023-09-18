@@ -1,5 +1,3 @@
-[@hubai/brain-sdk](../README.md) / [Exports](../modules.md) / IBrainSettings
-
 # Interface: IBrainSettings
 
 ## Table of contents

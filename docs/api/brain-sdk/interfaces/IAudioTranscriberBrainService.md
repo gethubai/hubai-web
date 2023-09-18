@@ -1,5 +1,3 @@
-[@hubai/brain-sdk](../README.md) / [Exports](../modules.md) / IAudioTranscriberBrainService
-
 # Interface: IAudioTranscriberBrainService<TSettings\>
 
 ## Type parameters
