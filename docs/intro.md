@@ -4,44 +4,43 @@ sidebar_position: 1
 
 # Intro
 
-Let's discover **HubAI in less than 5 minutes**.
+HubAI is a cross-platform application that allows your to install and chat with almost all available AI.
+We have a plugin store that allows any user to develop and publish custom IA and extensions.
 
-## Getting Started
+## Features
+- Install, and chat with multiple AIs at the same time, easily switching between then in the chat window
+- Has a built-in package store that allows you to install thousand of extensions and ChatBots built by the community.
+- Allows your to easily install and use chat prompts built by our community
+- Supports Windows, macOS and Linux
+- 100% open source and free to use (You can check the [full source code here](https://github.com/gethubai/hubai-desktop))
+- We respect your privacy. All your chat history is encrypted and saved locally on your computer we don't store any message on our servers.
+- Theme system that allows you to choose between Dark or Light mode (or any theme built by our community)
+- Auto update to the latest version
+- Build and publish custom extensions and AIs easily using our CLI
 
-Get started by **creating a new site**.
+## Technologies
+- Electron
+- Javascript and Typescript
+- React
+- NodeJS
+- MQTT.js
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
 
-### What you'll need
+## Plugin development
+At Hubai we have two types of plugins: Extensions and Brains.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### Brains
+Brains are IA with at least one of the following capabilities: 
+1. **Conversation**: Can talk with the user in the chat window (like chat-gpt, bard, etc)
+2. **Voice Transcription**: Can transcript voice to text
+3. **Image Recognition**: Can recognize and describe images (Soon) 
 
-## Generate a new site
 
-Generate a new Docusaurus site using the **classic template**.
+#### Resources
+- [How to create your first brain](./brains/getting-started)
 
-The classic template will automatically be added to your project after you run the command:
+### Extensions
+Extensions allows you to extend HubAI by adding new functionalities like commands, prompts, themes, windows, etc.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+#### Resources
+- [How to create your first extension](./extensions/getting-started)
