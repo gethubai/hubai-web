@@ -1,0 +1,7 @@
+{
+    "label": "Publishers",
+    "link": {
+        "type": "generated-index",
+        "description": "CLI Commands for creating and managing publishers"
+    }
+}
