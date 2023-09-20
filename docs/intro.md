@@ -44,4 +44,4 @@ Brains are IA with at least one of the following capabilities:
 Extensions allows you to extend HubAI by adding new functionalities like commands, prompts, themes, windows, etc.
 
 #### Resources
-- [How to create your first extension](./extensions/getting-started)
+- [How to create your first extension](/docs/extensions/getting-started)
