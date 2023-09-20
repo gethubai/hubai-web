@@ -37,7 +37,8 @@ Brains are IA with at least one of the following capabilities:
 
 
 #### Resources
-- [How to create your first brain](./brains/getting-started)
+- [How to create your first brain](/docs/brains/getting-started)
+- [How to create a brain that uses the OpenAI API](/docs/brains/tutorials/how-to-create-a-brain-with-openai)
 
 ### Extensions
 Extensions allows you to extend HubAI by adding new functionalities like commands, prompts, themes, windows, etc.
