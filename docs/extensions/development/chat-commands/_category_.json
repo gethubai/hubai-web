@@ -1,0 +1,9 @@
+{
+    "label": "Chat Commands",
+    "position": 3,
+    "link": {
+      "type": "generated-index",
+      "description": "Learn more about how to add commands to the HubAI chat"
+    }
+  }
+  

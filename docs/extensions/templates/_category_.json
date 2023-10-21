@@ -1,0 +1,9 @@
+{
+    "label": "Extension Templates",
+    "position": 10,
+    "link": {
+      "type": "generated-index",
+      "description": "Discover a list of extension templates available for use in your extension"
+    }
+  }
+  
