@@ -4,43 +4,78 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Seamless Multi-AI Interaction',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        With HubAI, the future of AI chat is at your fingertips. Engage with
+        multiple AIs simultaneously and toggle between them with ease. No matter
+        which platform you're on - Windows, macOS, or Linux - HubAI provides a
+        fluid experience that's tailored to your needs.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'An Expanding Universe of Extensions',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Unlock endless possibilities with our built-in package store. Browse,
+        install, and interact with thousands of extensions and AIs (brains)
+        crafted by our ever-growing community. From specialized prompts to
+        innovative chat interfaces, discover something new every day.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Secure and Open-Source',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Trust is our priority. HubAI is 100% open-source, granting you full
+        access to inspect, modify, and adapt the source code to your preferences
+      </>
+    ),
+  },
+  {
+    title: 'Privacy First',
+    description: (
+      <>
+        Your privacy is paramount: all chats are encrypted and stored only on
+        your device. We will never read or sell your data.
+      </>
+    ),
+  },
+  {
+    title: 'Theme and UI customization',
+    description: (
+      <>
+        Personalize your AI chat environment with HubAI’s theme system. Whether
+        you're a fan of sleek dark modes, classic light interfaces, or something
+        entirely unique, our community-driven themes ensure that you chat in
+        style. Express yourself and even craft your own themes to share with the
+        world!
+      </>
+    ),
+  },
+  {
+    title: 'Elevate Your AI Experience with Custom Prompt',
+    description: (
+      <>
+       Access thousands of AI prompts tailored to enhance your interaction and usability. Whether
+        you're looking to refine your AI's responses, navigate specific topics,
+        or explore new conversational avenues, our vast collection ensures a
+        continually evolving and enriched chat experience.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
+      {!!Svg && (
+        <div className="text--center">
+          <Svg className={styles.featureSvg} role="img" />
+        </div>
+      )}
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>
