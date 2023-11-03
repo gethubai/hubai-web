@@ -1,4 +1,6 @@
-# Interface: IAudioTranscriberBrainService<TSettings\>
+# IAudioTranscriberBrainService<TSettings\>
+
+Service for transcribing audio (speech-to-text)
 
 ## Type parameters
 
@@ -26,10 +28,10 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `audioPath` | [`LocalAudioPrompt`](../modules.md#localaudioprompt) |
-| `context` | [`IBrainPromptContext`](IBrainPromptContext.md)<`TSettings`\> |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `audioPath` | [`LocalAudioPrompt`](../modules.md#localaudioprompt) | The path for the audio file (must be a valid local path) |
+| `context` | [`IBrainPromptContext`](IBrainPromptContext.md)<`TSettings`\> | Some additional data we can send to the brain along with the prompt |
 
 #### Returns
 
@@ -37,4 +39,4 @@
 
 #### Defined in
 
-models/brainService.ts:38
+[models/brainService.ts:213](https://github.com/gethubai/brain-sdk/blob/eb59de1/src/models/brainService.ts#L213)
