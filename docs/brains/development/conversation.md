@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Brain with Conversation Capability
 
 A brain with the `conversation` capability is used to receive text prompts from the HubAI app and send text responses back. Example of brains with this capability: ChatGPT, Bard, etc.

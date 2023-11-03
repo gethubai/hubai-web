@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Brain with VoiceTranscription Capability
 
 A brain with the `voice_transcription` capability is used to receive audio prompts from the HubAI app and transcribe it to texts. Example of brains with this capability: Google Speech-to-Text, OpenAI Whisper-1, etc.
