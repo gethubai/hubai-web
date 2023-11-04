@@ -1,5 +1,7 @@
 # MenuBar
 
+API Reference: [IMenuBarService](/docs/api/hubai-core/interfaces/services.IMenuBarService.md)
+
 The MenuBar extension allows you to add menu items to the top menu bar of the app.
 
 Default menu bar:
@@ -13,7 +15,7 @@ Horizontal menu bar:
 
 ## Adding a menu item
 
-To add a new menu item, we need to create a new object with the following properties, and then call the `add` method from the `menuBar` service:
+To add a new menu item, we need to create a new object with the following properties, and then call the **[append method](/docs/api/hubai-core/interfaces/services.IMenuBarService.md#append)** from the `menuBar` service:
 
 ```typescript
 const addTodoItemMenuItem: IMenuBarItem = {

@@ -89,7 +89,7 @@ export class TodoListExtension implements IExtension {
 
 The sidebar is used to display the secondary navigation items of the app. It will be changed when the user clicks on an item in the activity bar, so they are related by id.
 
-To add a new sidebar item, we need to create a new object with the following properties, and then call the `add` method from the `sidebar` service:
+To add a new sidebar item, we need to create a new object with the following properties, and then call the `add` method from the [ISidebarService](/docs/api/hubai-core/interfaces/services.ISidebarService.md):
 
 ```typescript
 const sidebar = {
@@ -106,7 +106,7 @@ context.services.sidebar.add(sidebar);
 
 The activity bar is used to display the main navigation items of the app. It will change the sidebar when the user clicks on an item (**Sidebar and activityBar item should have the same id**!)
 
-To add a new activity bar item, we need to create a new object with the following properties, and then call the `add` method from the `activityBar` service:
+To add a new activity bar item, we need to create a new object with the following properties, and then call the `add` method from the [IActivityBarService](/docs/api/hubai-core/interfaces/services.IActivityBarService.md):
 
 ```typescript
 const activityBar = {
@@ -123,7 +123,7 @@ context.services.activityBar.add(activityBar);
 
 ### Menu Bar
 
-The menu bar is the main menu of the app. You can add new items to the menu bar by calling the `append` method from the `menuBar` service:
+The menu bar is the main menu of the app. You can add new items to the menu bar by calling the `append` method from the [IMenuBarService](/docs/api/hubai-core/interfaces/services.IMenuBarService.md):
 
 ```typescript
 const addTodoItemMenuItem: IMenuBarItem = {

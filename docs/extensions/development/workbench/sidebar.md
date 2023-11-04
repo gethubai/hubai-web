@@ -4,13 +4,15 @@ sidebar_position: 2
 
 # Sidebar
 
+API Reference: [ISidebarService](/docs/api/hubai-core/interfaces/services.ISidebarService.md)
+
 The sidebar is the secondary navigation of the app. It will be changed when the user clicks on an item in the activity bar, so they are related by id.
 
 ![Workbench Core Components](./workbench-core.jpg)
 
 ## Adding a new Sidebar item
 
-To add a new sidebar item, we need to create a new object with the following properties, and then call the `add` method from the `sidebar` service:
+To add a new sidebar item, we need to create a new object with the following properties, and then call the `add` method from the [ISidebarService](/docs/api/hubai-core/interfaces/services.ISidebarService.md):
 
 ### Simple sidebar without a toolbar
 
@@ -80,7 +82,7 @@ The sidebar will be shown when the user clicks on the activity bar item that has
 
 ## Removing a Sidebar item
 
-To remove a sidebar item, we need to call the `remove` method from the `sidebar` service:
+To remove a sidebar item, we need to call the `remove` method from the [ISidebarService](/docs/api/hubai-core/interfaces/services.ISidebarService.md):
 (You should call the remove on dispose method of the extension)
 
 ```typescript
@@ -89,7 +91,7 @@ context.services.sidebar.remove('myExtension.sidebar');
 
 ## Set the active Sidebar item
 
-The active sidebar item is set when the user clicks on the activity bar item that has the same id. But you can also set it programmatically by calling the `setActive` method from the `sidebar` service:
+The active sidebar item is set when the user clicks on the activity bar item that has the same id. But you can also set it programmatically by calling the `setActive` method from the [ISidebarService](/docs/api/hubai-core/interfaces/services.ISidebarService.md):
 
 ```typescript
 context.services.sidebar.setActive('myExtension.sidebar');

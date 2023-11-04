@@ -4,13 +4,15 @@ sidebar_position: 4
 
 # Editor (Tabs)
 
+API Reference: [IEditorService](/docs/api/hubai-core/interfaces/services.IEditorService.md)
+
 The editor service is used to add new tabs (window) to the app.
 
 ![Workbench Core Components](./workbench-core.jpg)
 
 ## Adding a new tab window
 
-To add a new tab window, we need to create a new object with the following properties, and then call the `add` method from the `editor` service:
+To add a new tab window, we need to create a new object with the following properties, and then call the [open](/docs/api/hubai-core/interfaces/services.IEditorService.md#open) method from the [IEditorService](/docs/api/hubai-core/interfaces/services.IEditorService.md):
 
 ```typescript
 const TabWindow = () => {

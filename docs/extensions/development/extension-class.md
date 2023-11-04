@@ -53,24 +53,4 @@ The extension is activated when the app starts and disposed when the app is clos
 
 ### App Context
 
-The AppContext object is passed to the activate and dispose methods. Use the services to add new pages, sidebars, toolbars, languages, themes, and a lot of other things to the app.
-
-```typescript
-export declare class AppContext {
-  services: AppContextServices;
-  constructor(services: AppContextServices);
-}
-
-export declare class AppContextServices {
-  sidebar: ISidebarService;
-  activityBar: IActivityBarService;
-  menuBar: IMenuBarService;
-  editor: IEditorService;
-  notification: INotificationService;
-  theme: IColorThemeService;
-  problems: IProblemsService;
-  settings: ISettingsService;
-  extension: IExtensionService;
-  layout: ILayoutService;
-}
-```
+The [AppContext](/docs/api/hubai-core/classes/model.AppContext.md) object is passed to the activate and dispose methods. Use the services to add new pages, sidebars, toolbars, languages, themes, interact with brains, and a lot of other things to the app.

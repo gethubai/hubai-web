@@ -4,6 +4,8 @@ sidebar_position: 3
 
 # ActivityBar
 
+Api Reference: [IActivityBarService](/docs/api/hubai-core/interfaces/services.IActivityBarService.md)
+
 The ActivityBar is the vertical bar on the left side of the window. It contains icons for various activities to navigate trough the app.
 
 The activity bar and the sidebar are related by id. When the user clicks on an item in the activity bar, the sidebar will be changed to the one with the same id.
@@ -13,7 +15,7 @@ The activity bar and the sidebar are related by id. When the user clicks on an i
 
 ## Adding a new ActivityBar item
 
-To add a new activity bar item, we need to create a new object with the following properties, and then call the `add` method from the `activityBar` service:
+To add a new activity bar item, we need to create a new object with the following properties, and then call the `add` method from the [IActivityBarService](/docs/api/hubai-core/interfaces/services.IActivityBarService.md):
 
 ```typescript
 const activityBar = {
@@ -43,7 +45,7 @@ context.services.activityBar.add(activityBar);
 
 ## Removing an ActivityBar item
 
-To remove an activity bar item, we need to call the `remove` method from the `activityBar` service:
+To remove an activity bar item, we need to call the `remove` method from the [IActivityBarService](/docs/api/hubai-core/interfaces/services.IActivityBarService.md)
 (You should call the remove on dispose method of the extension)
 
 ```typescript

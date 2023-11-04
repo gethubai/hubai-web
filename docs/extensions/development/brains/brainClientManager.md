@@ -1,13 +1,13 @@
 # Using a brain on your extension
 
-We use the IBrainClientManager interface to interact with the brain. The BrainClientManager is a singleton that is injected into the extension's context.
-The BrainClientManager is responsible for managing the brain's lifecycle and for sending prompts to the brain.
+We use the [IBrainClientManager](/docs/api/hubai-core/interfaces/services.IBrainClientManager.md) interface to interact with the brain. The BrainClientManager is a singleton that is injected into the extension's context.
+The [IBrainClientManager](/docs/api/hubai-core/interfaces/services.IBrainClientManager.md) is responsible for managing the brain's lifecycle and for sending prompts to the brain.
 
 ## Brain listing
 
 ### Available brains
 
-To get a list of available brains, you can use the `getAvailableBrains` method of the BrainClientManager:
+To get a list of available brains, you can use the [getAvailableBrains](/docs/api/hubai-core/interfaces/services.IBrainClientManager.md#getavailablebrains) method of the BrainClientManager:
 
 ```ts
 const ImageCreatorExtension: IExtension = {
@@ -19,26 +19,26 @@ const ImageCreatorExtension: IExtension = {
 
 ### Available brain Clients
 
-To get a list of all available brain clients, you can use the `getAvailableBrainClients` method of the BrainClientManager:
+To get a list of all available brain clients, you can use the [getAvailableClients](/docs/api/hubai-core/interfaces/services.IBrainClientManager.md#getavailableclients) method of the BrainClientManager:
 
 ```ts
 const ImageCreatorExtension: IExtension = {
   async activate(context: AppContext) {
     const brainClients =
-      context.services.brainClientManager.getAvailableBrainClients();
+      context.services.brainClientManager.getAvailableClients();
   },
 };
 ```
 
 ### Default brainClient for a given capability
 
-If you want to get the configured default brainClient for a given capability, you can use the `getDefaultBrainClient` method of the BrainClientManager:
+If you want to get the configured default brainClient for a given capability, you can use the [getDefaultForCapability](/docs/api/hubai-core/interfaces/services.IBrainClientManager.md#getdefaultforcapability) method of the BrainClientManager:
 
 ```ts
 const ImageCreatorExtension: IExtension = {
   async activate(context: AppContext) {
     const brainClient =
-      context.services.brainClientManager.getDefaultBrainClient(
+      context.services.brainClientManager.getDefaultForCapability(
         'image_generation'
       );
   },
@@ -47,7 +47,7 @@ const ImageCreatorExtension: IExtension = {
 
 ### BrainClient by id
 
-If you want to get a brainClient by id, you can use the `getClient` method of the BrainClientManager:
+If you want to get a brainClient by id, you can use the [getClient](/docs/api/hubai-core/interfaces/services.IBrainClientManager.md#getclient) method of the BrainClientManager:
 
 ```ts
 const ImageCreatorExtension: IExtension = {
@@ -61,7 +61,7 @@ const ImageCreatorExtension: IExtension = {
 
 ### Sending a text prompt
 
-To send a text prompt to the brain, you can use the `sendTextPrompt` method of the BrainClient:
+To send a text prompt to the brain, you can use the [IBrainClient.conversation.sendTextPrompt](/docs/api/hubai-core/interfaces/services.ITextBrainCapability#sendtextprompt) method:
 
 ```ts
 const MyExtension: IExtension = {
@@ -97,7 +97,7 @@ const MyExtension: IExtension = {
 
 #### Sending attachments on a text prompt
 
-Some brains support sending attachments on a text prompt. To send attachments, you must add an `attachments` property to the prompt object, and pass an array of [Attachment](../../api/brain-sdk/interfaces/attachment) objects.
+Some brains support sending attachments on a text prompt. To send attachments, you must add an `attachments` property to the prompt object, and pass an array of [Attachment](/docs/api/hubai-core/modules/services#brainpromptattachment) objects.
 
 ```ts
 const MyExtension: IExtension = {
@@ -129,7 +129,7 @@ const MyExtension: IExtension = {
 
 ### Sending an audio prompt (voice transcription)
 
-To send an audio prompt to the brain, you can use the `transcribeAudio` method of the BrainClient:
+To send an audio prompt to the brain, you can use the [IBrainClient.voiceTranscription.transcribeAudio](/docs/api/hubai-core/interfaces/services.IAudioTranscriptionBrainCapability#transcribeaudio) method:
 
 ```ts
 const MyExtension: IExtension = {
@@ -156,7 +156,7 @@ const MyExtension: IExtension = {
 
 ### Sending a prompt to generate an image
 
-To send a prompt to generate an image, you can use the `generateImage` method of the BrainClient:
+To send a prompt to generate an image, you can use the [IBrainClient.imageGeneration.generateImage](/docs/api/hubai-core/interfaces/services.IImageGenerationBrainCapability#generateimage) method:
 
 ```ts
 const MyExtension: IExtension = {

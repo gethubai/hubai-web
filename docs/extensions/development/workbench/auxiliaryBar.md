@@ -4,6 +4,8 @@ sidebar_position: 5
 
 # Auxiliary Bar
 
+API Reference: [IAuxiliaryBarService](/docs/api/hubai-core/interfaces/services.IAuxiliaryBarService.md)
+
 The auxiliary bar is a bar that is shown at the right side of the editor (just like sidebar, but in the right). It can be used to show some information or actions related to the current selected editor.
 
 ![Workbench Core Components](./workbench-core.jpg)
