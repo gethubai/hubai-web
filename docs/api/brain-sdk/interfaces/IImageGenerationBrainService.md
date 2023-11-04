@@ -1,12 +1,12 @@
-# IImageGenerationBrainService<TSettings\>
+# Interface: IImageGenerationBrainService<TSettings\>
 
 Service for generating images from text
 
 ## Type parameters
 
-| Name |
-| :------ |
-| `TSettings` |
+| Name | Description |
+| :------ | :------ |
+| `TSettings` | The type of the brain settings |
 
 ## Hierarchy
 
@@ -43,4 +43,4 @@ The response from the brain
 
 #### Defined in
 
-[models/brainService.ts:181](https://github.com/gethubai/brain-sdk/blob/eb59de1/src/models/brainService.ts#L181)
+[models/brainService.ts:186](https://github.com/gethubai/brain-sdk/blob/eb59de1/src/models/brainService.ts#L186)

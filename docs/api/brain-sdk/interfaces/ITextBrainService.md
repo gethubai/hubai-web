@@ -1,12 +1,12 @@
-[@hubai/brain-sdk](../README.md) / [Exports](../modules.md) / ITextBrainService
+# Interface: ITextBrainService<TSettings\>
 
-# ITextBrainService<TSettings\>
+Service implemented by brains that support text prompts
 
 ## Type parameters
 
-| Name |
-| :------ |
-| `TSettings` |
+| Name | Description |
+| :------ | :------ |
+| `TSettings` | The type of the brain settings |
 
 ## Hierarchy
 
@@ -43,4 +43,4 @@ The response from the brain
 
 #### Defined in
 
-[models/brainService.ts:150](https://github.com/gethubai/brain-sdk/blob/eb59de1/src/models/brainService.ts#L150)
+[models/brainService.ts:155](https://github.com/gethubai/brain-sdk/blob/eb59de1/src/models/brainService.ts#L155)

@@ -1,4 +1,4 @@
-# IBrainService
+# Interface: IBrainService
 
 ## Hierarchy
 

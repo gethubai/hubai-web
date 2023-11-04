@@ -1,12 +1,12 @@
-# IBrainPromptContext<TPromptSettings\>
+# Interface: IBrainPromptContext<TPromptSettings\>
 
 Some additional data we can send to the brain along with the prompt
 
 ## Type parameters
 
-| Name |
-| :------ |
-| `TPromptSettings` |
+| Name | Description |
+| :------ | :------ |
+| `TPromptSettings` | The type of the brain settings |
 
 ## Indexable
 
@@ -31,7 +31,7 @@ A conversation id to group prompts together
 
 #### Defined in
 
-[models/brainService.ts:102](https://github.com/gethubai/brain-sdk/blob/eb59de1/src/models/brainService.ts#L102)
+[models/brainService.ts:103](https://github.com/gethubai/brain-sdk/blob/eb59de1/src/models/brainService.ts#L103)
 
 ___
 
@@ -43,7 +43,7 @@ The unique id of the prompt
 
 #### Defined in
 
-[models/brainService.ts:97](https://github.com/gethubai/brain-sdk/blob/eb59de1/src/models/brainService.ts#L97)
+[models/brainService.ts:98](https://github.com/gethubai/brain-sdk/blob/eb59de1/src/models/brainService.ts#L98)
 
 ___
 
@@ -55,7 +55,7 @@ The id of the user who is sending the prompt
 
 #### Defined in
 
-[models/brainService.ts:105](https://github.com/gethubai/brain-sdk/blob/eb59de1/src/models/brainService.ts#L105)
+[models/brainService.ts:106](https://github.com/gethubai/brain-sdk/blob/eb59de1/src/models/brainService.ts#L106)
 
 ___
 
@@ -67,4 +67,4 @@ The brain settings to use for this prompt
 
 #### Defined in
 
-[models/brainService.ts:108](https://github.com/gethubai/brain-sdk/blob/eb59de1/src/models/brainService.ts#L108)
+[models/brainService.ts:109](https://github.com/gethubai/brain-sdk/blob/eb59de1/src/models/brainService.ts#L109)

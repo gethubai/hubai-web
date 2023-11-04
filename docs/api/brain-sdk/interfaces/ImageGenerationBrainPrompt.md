@@ -1,4 +1,4 @@
-# ImageGenerationBrainPrompt
+# Interface: ImageGenerationBrainPrompt
 
 Represents an image generation prompt sent to the brain
 
@@ -32,7 +32,7 @@ A list of file attachments
 
 #### Defined in
 
-[models/brainService.ts:140](https://github.com/gethubai/brain-sdk/blob/eb59de1/src/models/brainService.ts#L140)
+[models/brainService.ts:141](https://github.com/gethubai/brain-sdk/blob/eb59de1/src/models/brainService.ts#L141)
 
 ___
 
@@ -47,7 +47,7 @@ binary: The brain will return the image as a binary buffer
 
 #### Defined in
 
-[models/brainService.ts:166](https://github.com/gethubai/brain-sdk/blob/eb59de1/src/models/brainService.ts#L166)
+[models/brainService.ts:171](https://github.com/gethubai/brain-sdk/blob/eb59de1/src/models/brainService.ts#L171)
 
 ___
 
@@ -63,7 +63,7 @@ The text prompt
 
 #### Defined in
 
-[models/brainService.ts:135](https://github.com/gethubai/brain-sdk/blob/eb59de1/src/models/brainService.ts#L135)
+[models/brainService.ts:136](https://github.com/gethubai/brain-sdk/blob/eb59de1/src/models/brainService.ts#L136)
 
 ___
 
@@ -79,7 +79,7 @@ The role of the sender (user, brain or system)
 
 #### Defined in
 
-[models/brainService.ts:125](https://github.com/gethubai/brain-sdk/blob/eb59de1/src/models/brainService.ts#L125)
+[models/brainService.ts:126](https://github.com/gethubai/brain-sdk/blob/eb59de1/src/models/brainService.ts#L126)
 
 ___
 
@@ -95,4 +95,4 @@ The utc date that the prompt has been sent
 
 #### Defined in
 
-[models/brainService.ts:130](https://github.com/gethubai/brain-sdk/blob/eb59de1/src/models/brainService.ts#L130)
+[models/brainService.ts:131](https://github.com/gethubai/brain-sdk/blob/eb59de1/src/models/brainService.ts#L131)

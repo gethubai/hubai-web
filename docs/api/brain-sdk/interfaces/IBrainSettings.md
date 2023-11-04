@@ -1,4 +1,4 @@
-# IBrainSettings
+# Interface: IBrainSettings
 
 The basic settings of the brain
 
