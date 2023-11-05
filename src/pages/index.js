@@ -4,7 +4,8 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import logo from '@site/static/img/logo.png';
+import ThemedImage from '@theme/ThemedImage';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 import styles from './index.module.css';
 
@@ -13,7 +14,15 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <img src={logo} width="200px" height="196px" alt="HubAI Logo"></img>
+        <ThemedImage
+          sources={{
+            light: useBaseUrl('img/logo.png'),
+            dark: useBaseUrl('img/logo-dark.png'),
+          }}
+          width="200px"
+          height="196px"
+          alt="HubAI Logo"
+        />
         <p className="hero__subtitle">{siteConfig.tagline}</p>
 
         <div className={styles.buttons}>
