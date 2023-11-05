@@ -48,7 +48,7 @@ HubAI has a powerful extension system that allows you to extend the platform in 
 
 ### Community Driven Innovation
 
-Join a community where creativity meets technology. Our open extension store encourages users to design and publish their own extensions and AI brains. With [comprehensive documentation](/docs/intro.md) and support, stepping into the world of AI development can be a breeze.
+Join a community where creativity meets technology. Our open extension store encourages users to design and publish their own extensions and AI brains. With [comprehensive documentation](/docs/intro) and support, stepping into the world of AI development can be a breeze.
 
 Transform your interaction with artificial intelligence today. Dive into the HubAI experience and unleash the full potential of AI at your fingertips.
 

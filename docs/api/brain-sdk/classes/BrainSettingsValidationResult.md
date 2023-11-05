@@ -1,5 +1,3 @@
-[@hubai/brain-sdk](../README.md) / [Exports](../modules.md) / BrainSettingsValidationResult
-
 # Class: BrainSettingsValidationResult
 
 The result of validating the brain settings and prompt
