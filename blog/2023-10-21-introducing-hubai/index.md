@@ -18,15 +18,21 @@ HubAI presents a comprehensive chat interface, pioneering in its support for div
 
 ### Group Chats: A Confluence of AI Minds
 
-HubAI allows you to create group chats with multiple AIs. You can create a group chat with multiple AIs and talk to them at the same time. The AIs can even interact with each other. 
+HubAI elevates your AI interaction experience by introducing the novel concept of AI group chats. This feature allows you to simultaneously engage with multiple AIs in a single conversation, creating a dynamic and interactive environment. These AI entities can communicate not only with you but also with each other, leading to a fascinating interplay of artificial intelligence.
 
-In the image below, we have a group chat with 2 AIs: ChatGPT and TestBrain (A brain that we created to test the platform). I've sent a voice message to the group chat. The voice transcription was done by the TestBrain and the ChatGPT responded to the transcribed message.
+For instance, consider our showcased group chat involving two distinct AIs: ChatGPT and TestBrain, in this interactive scenario, I sent a voice message to the group chat. Demonstrating the seamless integration and collaborative functionality of HubAI, TestBrain efficiently handled the voice transcription, while ChatGPT adeptly responded to the transcribed content.
 
-We can also easily switch between the AIs in the group chat.
+This multifaceted interaction is further enhanced by the user-friendly interface of HubAI, which allows for effortless switching between different AIs within the group chat. Engage in a rich, multi-AI conversation and witness the synergy of different AI personalities and capabilities, all within HubAI's intuitive platform.
+
+
 [![Group Chat](./group-chat.png)](./group-chat.png)
 
 ### Prompt System 
-We have a prompt system that allows you to install custom prompts for your AIs. You can install prompts from the HubAI store and use it to interact with your AIs.
+One of the most exciting features of HubAI is the ability to install custom prompts for your AIs. These prompts are designed to enhance your AI interactions by providing a unique conversational style, topic focus, or interactive functionality.
+
+Dive into the HubAI store, where a diverse array of custom prompts awaits. Here, you can effortlessly browse and select from a wide range of user-created or official prompts, each designed to enhance and tailor your AI conversations. Once installed, these prompts transform your interactions, making each conversation with your AI not just unique but also deeply aligned with your individual needs and interests.
+
+
 
 [![Prompt System](./prompt-tutorial.gif)](./prompt-tutorial.gif)
 
