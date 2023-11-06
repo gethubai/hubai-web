@@ -4,16 +4,15 @@ sidebar_position: 1
 
 # Intro
 
-HubAI is a cross-platform application that allows your to install and chat with almost all available AI.
-We have a plugin store that allows any user to develop and publish custom IA and extensions.
+HubAI is a cross-platform desktop application that will give you a new way to interact with any AI. It's your personal gateway to an expansive world of AI functionalities, right from your computer. Experience the thrill of creating, customizing, and engaging with diverse AIs, and join a vibrant community of AI enthusiasts and innovators.
 
 ## Features
-- Install, and chat with multiple AIs at the same time, easily switching between then in the chat window
-- Has a built-in package store that allows you to install thousand of extensions and ChatBots built by the community.
-- Allows your to easily install and use chat prompts built by our community
-- Supports Windows, macOS and Linux
+- Install, and chat with multiple AIs at the same time, easily switching between them in the chat window
+- Has a built-in package store that allows you to install thousands of extensions and ChatBots built by the community.
+- Allows you to easily install and use chat prompts built by our community
+- Supports Windows, macOS, and Linux
 - 100% open source and free to use (You can check the [full source code here](https://github.com/gethubai/hubai-desktop))
-- We respect your privacy. All your chat history is encrypted and saved locally on your computer we don't store any message on our servers.
+- We respect your privacy. All your chat history is encrypted and saved locally on your computer we don't store any messages on our servers.
 - Theme system that allows you to choose between Dark or Light mode (or any theme built by our community)
 - Auto update to the latest version
 - Build and publish custom extensions and AIs easily using our CLI
