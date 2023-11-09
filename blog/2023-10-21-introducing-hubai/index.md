@@ -7,20 +7,32 @@ tags: [hubai, platform, ai]
 
 # Transform Your AI Interactions with HubAI: The Ultimate AI Platform
 
-Today we're introducing HubAI to the world. HubAI is a desktop application that will give you a new way to interact with other AIs. HubAI is not just an app; it's your personal gateway to an expansive world of AI functionalities, right from your computer. Experience the thrill of creating, customizing, and engaging with diverse AIs, and join a vibrant community of AI enthusiasts and innovators.
+I'm very excited to announce the launch of HubAI, a new platform built for AIs. If your first thought is, "No another AI platform!" let me assure you, HubAI is something else. 
+
+No one can deny the impact of artificial intelligence on our lives. From the way we communicate to the way we work, AI has transformed our world. However, despite its widespread use, AI remains inaccessible to many. The complex nature of AI tools and the lack of a unified platform for AI interactions have created a barrier to entry for many users. In addition, the lack of a centralized platform has led to a fragmented AI ecosystem, where users are forced to navigate multiple websites and applications to access the AI tools they need. This lack of a unified platform has also hindered the development of AI tools, as developers are forced to create their own platforms to host their AI tools (and that's expansive!). This has led to a proliferation of AI tools, each with its own unique features and limitations. 
+
+I've created HubAI to solve this problem. HubAI allows users to access and interact with AI tools in a unified environment. It provides a centralized platform for AI interactions, allowing users to download and use AI tools from a single location (yes, we have a store for that!). HubAI also provides a unified interface for AI interactions, allowing users to interact with AI tools in a consistent manner. And you know what is better? **HubAI is, and will always be free and open-source**.
+
+For the developers yearning to forge tools that truly make a difference, our platform is your canvas. HubAI provides a centralized platform for developers, allowing them to host their AI tools on a single platform. Design your innovation without concerning yourself with user AI preferences. Publish your creation in our store, and we'll ensure it reaches the users it's meant to serve. Even more, if you have developed your own AI, you're welcome to integrate it within HubAI (we also have a store for AIs!), widening the horizons for a global community of users.
+
+HubAI was created with scalability and adaptability in mind. Modularity is at the core of the platform, allowing for customization and enhancement through various extensions. Want to tweak the interface, add pioneering AIs, infuse new prompts, or re-imagine almost any aspect of the user experience? HubAI empowers you to do so.
+
+Alright, enough talking, let's see some of the features that HubAI has to offer:
 
 # Key Features
 
 ## Multi-Dimensional AI Conversations
 
 ### Engage with AIs through Text, Voice, Images and More
-HubAI presents a comprehensive chat interface, pioneering in its support for diverse communication modes. Whether it’s text, voice, or image-based interactions, HubAI caters to all your AI communication needs. Enjoy seamless exchanges with AIs, tailored to your preferred style of communication.
+
+HubAI has a complete chat interface that allows you to interact with AIs in a variety of ways. You can send text messages, voice messages, images, and more. HubAI also supports group chats, allowing you to engage with multiple AIs at the same time. (And very soon you'll be able to even add your friends to the group chats with AIs!)
+
 
 ### Group Chats: A Confluence of AI Minds
 
-HubAI elevates your AI interaction experience by introducing the novel concept of AI group chats. This feature allows you to simultaneously engage with multiple AIs in a single conversation, creating a dynamic and interactive environment. These AI entities can communicate not only with you but also with each other, leading to a fascinating interplay of artificial intelligence.
+HubAI elevates your AI interaction experience by introducing the concept of AI group chats. This feature allows you to simultaneously engage with multiple AIs in a single conversation, creating a dynamic and interactive environment. These AI entities can communicate not only with you but also with each other, leading to a fascinating interplay of artificial intelligence.
 
-For instance, consider our showcased group chat involving two distinct AIs: ChatGPT and TestBrain, in this interactive scenario, I sent a voice message to the group chat. Demonstrating the seamless integration and collaborative functionality of HubAI, TestBrain efficiently handled the voice transcription, while ChatGPT adeptly responded to the transcribed content.
+For instance, consider the group chat in the image below, The chat has two distinct AIs: ChatGPT and TestBrain, in this interactive scenario, I sent a voice message to the group chat. Demonstrating the seamless integration and collaborative functionality, TestBrain efficiently handled the voice transcription, while ChatGPT adeptly responded to the transcribed content (that's two AIs working together baby!).
 
 This multifaceted interaction is further enhanced by the user-friendly interface of HubAI, which allows for effortless switching between different AIs within the group chat. Engage in a rich, multi-AI conversation and witness the synergy of different AI personalities and capabilities, all within HubAI's intuitive platform.
 
@@ -33,8 +45,9 @@ One of the most exciting features of HubAI is the ability to install custom prom
 Dive into the HubAI store, where a diverse array of custom prompts awaits. Here, you can effortlessly browse and select from a wide range of user-created or official prompts, each designed to enhance and tailor your AI conversations. Once installed, these prompts transform your interactions, making each conversation with your AI not just unique but also deeply aligned with your individual needs and interests.
 
 
-
 [![Prompt System](./prompt-tutorial.gif)](./prompt-tutorial.gif)
+
+![Gpt Prompt Pack Extension](gpt-prompt-pack-extension.png)
 
 ### Single Chat
 
