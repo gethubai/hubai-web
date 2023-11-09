@@ -13,6 +13,8 @@ No one can deny the impact of artificial intelligence on our lives. From the way
 
 I've created HubAI to solve this problem. HubAI allows users to use tools and interact with AI in a unified environment. It provides a centralized platform for AI interactions, allowing users to download and use AI tools from a single location (yes, we have a store for that!). And you know what is better? **HubAI is, and will always be free and open-source**.
 
+![HubAI With other AIs](brains.jpg)
+
 For the developers yearning to forge tools that truly make a difference, our platform is your canvas. HubAI provides a centralized platform for developers, allowing them to host their tools on a single platform. Design your innovation without concerning yourself with user AI preferences. Publish your creation in our store, and we'll ensure it reaches the users it's meant to serve. Even more, if you have developed your own AI, you're welcome to integrate it within HubAI (we also have a store for AIs!), widening the horizons for a global community of users.
 
 HubAI was created with scalability and adaptability in mind. Modularity is at the core of the platform, allowing for customization and enhancement through various extensions. Want to tweak the interface, add pioneering AIs, infuse new prompts, or re-imagine almost any aspect of the user experience? HubAI empowers you to do so.
