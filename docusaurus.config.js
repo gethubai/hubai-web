@@ -79,6 +79,7 @@ const config = {
             label: 'Documentation',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/downloads', label: 'Downloads', position: 'left' },
           {
             href: 'https://github.com/gethubai/hubai-desktop',
             label: 'GitHub',
