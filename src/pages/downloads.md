@@ -3,10 +3,10 @@
 You can download the latest release on our github page:
 [Latest release](https://github.com/gethubai/hubai-desktop/releases/latest)
 
-[Download for Windows](https://github.com/gethubai/hubai-desktop/releases/download/v0.1.0-alpha.18/HubAI-Setup-0.1.0-alpha.18.exe)
+[Download for Windows](https://github.com/gethubai/hubai-desktop/releases/download/v0.1.0-alpha.19/HubAI-Setup-0.1.0-alpha.19.exe)
 
-[Download for MacOS ARM](https://github.com/gethubai/hubai-desktop/releases/download/v0.1.0-alpha.18/HubAI-0.1.0-alpha.18-arm64.dmg)
+[Download for MacOS ARM](https://github.com/gethubai/hubai-desktop/releases/download/v0.1.0-alpha.19/HubAI-0.1.0-alpha.19-arm64.dmg)
 
-[Download for MacOS Intel](https://github.com/gethubai/hubai-desktop/releases/download/v0.1.0-alpha.18/HubAI-0.1.0-alpha.18.dmg)
+[Download for MacOS Intel](https://github.com/gethubai/hubai-desktop/releases/download/v0.1.0-alpha.19/HubAI-0.1.0-alpha.19.dmg)
 
-[Download for Linux](https://github.com/gethubai/hubai-desktop/releases/download/v0.1.0-alpha.18/HubAI-0.1.0-alpha.18.AppImage)
+[Download for Linux](https://github.com/gethubai/hubai-desktop/releases/download/v0.1.0-alpha.19/HubAI-0.1.0-alpha.19.AppImage)
